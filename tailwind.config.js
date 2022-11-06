@@ -8,6 +8,9 @@ module.exports = {
       fontFamily: {
         'body': ['Open Sans'] 
       },
+      backgroundImage: {
+        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
+      }
     },
   },
   plugins: [],

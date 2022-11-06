@@ -12,7 +12,7 @@ const Banner = () => {
         <img className='absolute h-screen inset-y-0 right-0 ml-[-500px]' src={Decorationr} alt='/' />
         <img className='absolute inset-x-0 bottom-0' src={Decoration} alt='/' />
         <div className='mx-auto flex flex-row justify-center text-[#ffff] font-["Open Sans"]'>
-            <div className='flex flex-col text-left justify-center'>
+            <div className='flex flex-col text-left justify-center z-10'>
                 <h1 className='font-semibold text-[40px]'>The Best Internet Needs 
                     <span className='flex font-bold text-[40px] mt-[-15px]'>for Your business !</span>
                 </h1>
