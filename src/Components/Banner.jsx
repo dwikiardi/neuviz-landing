@@ -10,7 +10,6 @@ const Banner = () => {
     <div className='w-full h-screen bg-gradient-to-tl from-[#9C27B0] to-[#6A1B9A] relative'>
         <img className='absolute h-screen inset-y-0 left-0' src={Decorationl} alt='/' />
         <img className='absolute h-screen inset-y-0 right-0 ml-[-500px]' src={Decorationr} alt='/' />
-        <img className='absolute inset-x-0 bottom-0' src={Decoration} alt='/' />
         <div className='mx-auto flex flex-row justify-center text-[#ffff] font-["Open Sans"]'>
             <div className='flex flex-col text-left justify-center z-10'>
                 <h1 className='font-semibold text-[40px]'>The Best Internet Needs 
@@ -24,8 +23,11 @@ const Banner = () => {
                 </div>
             </div>
             <div>
-                <img className='w-[500px] mt-[150px] my-4' src={Bannerct} alt='/' />
+                <img className='w-[500px] mt-[160px] my-4' src={Bannerct} alt='/' />
             </div>
+        </div>
+        <div>
+            <img className='relative inset-x-0 bottom-0 mt-[-180px] z-11 scale-y-125' src={Decoration} alt='/' />
         </div>
     </div>
   )
